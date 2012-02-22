@@ -1,0 +1,13 @@
+{
+
+// testedfiles: Iplb.ycp
+
+include "testsuite.ycp";
+TESTSUITE_INIT([], nil);
+
+import "Iplb";
+
+DUMP("Iplb::Modified");
+TEST(``(Iplb::Modified()), [], nil);
+
+}
