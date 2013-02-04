@@ -26,6 +26,7 @@ Summary:	Configuration of iplb
 @clientdir@/iplb.ycp
 @clientdir@/iplb_*.ycp
 @moduledir@/Iplb.*
-@moduledir@/Iplb2.*
+#@moduledir@/Iplb2.*
 @desktopdir@/iplb.desktop
 %doc @docdir@
+/usr/share/YaST2/scrconf/iplb.scr
