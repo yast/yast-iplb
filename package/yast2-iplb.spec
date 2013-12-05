@@ -18,7 +18,7 @@
 
 
 Name:           yast2-iplb
-Version:        3.1.1
+Version:        2.15.0
 Release:        0
 License:	GPL-2.0
 Group:		System/YaST
