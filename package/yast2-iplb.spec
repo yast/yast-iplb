@@ -49,11 +49,10 @@ Summary:	Configuration of iplb
 
 %files
 %defattr(-,root,root)
-%dir @yncludedir@/iplb
-@yncludedir@/iplb/*
-@clientdir@/iplb.rb
-@clientdir@/iplb_*.rb
-@moduledir@/Iplb.*
-@moduledir@/Iplb2.*
-@desktopdir@/iplb.desktop
-%doc @docdir@
+%dir %{yast_yncludedir}/iplb
+%{yast_yncludedir}/iplb/*
+%{yast_clientdir}/iplb*.rb
+%{yast_moduledir}/Iplb.rb
+%{yast_desktopdir}/iplb.desktop
+%{yast_scrconfdir}/*.scr
+%doc %{yast_docdir}
