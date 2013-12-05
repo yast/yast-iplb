@@ -5,13 +5,13 @@ module Yast
     def main
       # testedfiles: Iplb.ycp
 
-      #include "testsuite.ycp";
-      #TESTSUITE_INIT([], nil);
+      Yast.include self, "testsuite.rb"
+      TESTSUITE_INIT([], nil)
 
-      Yast.import "Iplb" 
+      Yast.import "Iplb"
 
-      #DUMP("Iplb::Modified");
-      #TEST(``(Iplb::Modified()), [], nil);
+      DUMP("Iplb::Modified")
+      TEST(lambda { Iplb.Modified() }, [], nil)
 
       nil
     end
