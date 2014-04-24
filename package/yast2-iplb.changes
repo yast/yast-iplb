@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Thu Apr 24 02:26:01 UTC 2014 - nwang@suse.com
+
+- BNC#804982. Unify the spacing of table global configuration. 
+
+-------------------------------------------------------------------
 Fri Dec  4 15:24:49 2009 - cmeng@novell.com
 
 - initial version
