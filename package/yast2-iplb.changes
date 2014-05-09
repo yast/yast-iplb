@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri May  9 07:15:40 UTC 2014 - nwang@suse.com
+
+- BNC#875677. Modify desktop file. Change name from IPLB to IP Load 
+  Balancing. 
+
+-------------------------------------------------------------------
 Thu Apr 24 02:26:01 UTC 2014 - nwang@suse.com
 
 - BNC#804982. Unify the spacing of table global configuration. 

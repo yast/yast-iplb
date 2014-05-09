@@ -19,7 +19,7 @@ X-SuSE-YaST-AutoInstResource=iplb
 Icon=yast-iplb
 Exec=/sbin/yast2 iplb 
 
-Name=IPLB
+Name=IP Load Balancing
 GenericName=Configure IPLB(IP Load Balancing)
 X-KDE-SubstituteUID=true
 StartupNotify=true
