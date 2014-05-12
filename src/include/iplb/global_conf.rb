@@ -74,6 +74,7 @@ module Yast
               HSpacing(0.7),
               TextEntry(Id(:checkinterval), _("Check Interval"), ""),
               TextEntry(Id(:checktimeout), _("Check Timeout"), ""),
+              HSpacing(3),
               TextEntry(Id(:failurecount), _("Failure Count"), ""),
               TextEntry(Id(:negotiatetimeout), _("Negotiate Timeout"), "")
             ),
