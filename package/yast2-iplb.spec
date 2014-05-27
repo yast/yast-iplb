@@ -1,7 +1,7 @@
 #
-# spec file for package yast2-cluster
+# spec file for package yast2-iplb
 #
-# Copyright (c) 2013 SUSE LINUX Products GmbH, Nuernberg, Germany.
+# Copyright (c) 2014 SUSE LINUX Products GmbH, Nuernberg, Germany.
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -16,24 +16,27 @@
 #
 
 
-
 Name:           yast2-iplb
-Version:        3.1.0
+Version:        3.1.1
 Release:        0
-License:	GPL-2.0
-Group:		System/YaST
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source0:        %{name}-%{version}.tar.bz2
 
-Requires:	yast2
-BuildRequires:	perl-XML-Writer update-desktop-files yast2 yast2-devtools yast2-testsuite
+Requires:       yast2
+BuildRequires:  perl-XML-Writer
+BuildRequires:  update-desktop-files
+BuildRequires:  yast2
+BuildRequires:  yast2-devtools
+BuildRequires:  yast2-testsuite
 
-BuildArchitectures:	noarch
+BuildArch:      noarch
 
 Requires:       yast2-ruby-bindings >= 1.0.0
 
-Summary:	Configuration of iplb
+Summary:        Configuration of iplb
+License:        GPL-2.0
+Group:          System/YaST
 
 %description
 -
@@ -56,3 +59,5 @@ Summary:	Configuration of iplb
 %{yast_desktopdir}/iplb.desktop
 %{yast_scrconfdir}/*.scr
 %doc %{yast_docdir}
+
+%changelog
