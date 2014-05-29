@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu May 29 02:51:24 UTC 2014 - nwang@suse.com
+
+- BNC#879029. Modify typo of ored to ignored.
+- Version 3.1.2
+
+-------------------------------------------------------------------
 Tue May 27 03:20:07 UTC 2014 - nwang@suse.com
 
 - Using same spec file of ibs and obs.
