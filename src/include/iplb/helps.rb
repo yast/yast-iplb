@@ -79,7 +79,7 @@ module Yast
             "\n" +
             "</p><p><b><big>email alert status</big> = all</b>|<b>none</b>|<b>starting</b>|<b>running</b>|<b>stopping</b>|<b>reloading</b>,...\n" +
             "</p><p>Comma delimited list of server states in which email alerts should be sent. <b>all</b> is a short-hand for\n" +
-            "\"<b>starting</b>,<b>running</b>,<b>stopping</b>,<b>reloading</b>\". If <b>none</b> is specified, no other option may be specified, otherwise options are ored\n" +
+            "\"<b>starting</b>,<b>running</b>,<b>stopping</b>,<b>reloading</b>\". If <b>none</b> is specified, no other option may be specified, otherwise options are ignored\n" +
             "with each other.\n" +
             "</p><p>If defined in a virtual server section then the global value is overridden.\n" +
             "</p><p>Default: all\n" +
@@ -317,7 +317,7 @@ module Yast
             "\n" +
             "</p><p><b><big>email alert status</big> = all</b>|<b>none</b>|<b>starting</b>|<b>running</b>|<b>stopping</b>|<b>reloading</b>,...\n" +
             "</p><p>Comma delimited list of server states in which email alerts should be sent. <b>all</b> is a short-hand for\n" +
-            "\"<b>starting</b>,<b>running</b>,<b>stopping</b>,<b>reloading</b>\". If <b>none</b> is specified, no other option may be specified, otherwise options are ored\n" +
+            "\"<b>starting</b>,<b>running</b>,<b>stopping</b>,<b>reloading</b>\". If <b>none</b> is specified, no other option may be specified, otherwise options are ignored\n" +
             "with each other.\n" +
             "</p><p>If defined in a virtual server section then the global value is overridden.\n" +
             "</p><p>Default: all\n" +
