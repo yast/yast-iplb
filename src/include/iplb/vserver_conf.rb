@@ -223,8 +223,8 @@ module Yast
         Opt(:hvstretch),
         DumbTab(
           [
-            Item(Id(:global_tab), "&Global Configuration"),
-            Item(Id(:vserver_tab), "&Virtual Server Configuration", true)
+            Item(Id(:global_tab), _("&Global Configuration")),
+            Item(Id(:vserver_tab), _("&Virtual Server Configuration"), true)
           ],
           VBox(
             Opt(:hvstretch),
@@ -408,7 +408,7 @@ module Yast
       layout = VBox(
         VBox(
           Label(
-            "If using IPv6,the format should like this\n[fe80::5054:ff:fe00:2]"
+            _("If using IPv6,the format should like this\n[fe80::5054:ff:fe00:2]")
           ),
           InputField(Id(:ip), Opt(:hstretch), _("Real Server's IP Address"), "")
         ),
@@ -453,7 +453,7 @@ module Yast
 
           Builtins.y2milestone("ip is %1", ip2)
           if IP.Check(ip2) == false
-            Popup.Message("IP address is not Valid")
+            Popup.Message(_("IP address is not Valid"))
             next
           end
           # if(IP::Check6((string)UI::QueryWidget(`id(`ip),`Value))==true)
@@ -544,7 +544,7 @@ module Yast
 
 
         if ret == :rserver_add
-          ret = real_ip_input_dialog("Add a new real server:", "")
+          ret = real_ip_input_dialog(_("Add a new real server:"), "")
           if ret != :cancel
             Builtins.y2milestone("%1", Convert.to_string(ret))
             Ops.set(
@@ -561,7 +561,7 @@ module Yast
             UI.QueryWidget(:rserver_box, :CurrentItem)
           )
           ret = real_ip_input_dialog(
-            "Edit the real server:",
+            _("Edit the real server:"),
             Ops.get_string(l_vserver_conf, ["real", current], "")
           )
           Ops.set(l_vserver_conf, ["real", current], ret) if ret != :cancel

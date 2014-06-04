@@ -58,15 +58,15 @@ module Yast
         :supervised
       ]
 
-      @yesno = ["", "yes", "no"]
+      @yesno = ["", _("yes"), _("no")]
     end
 
     def global_layout
       VBox(
         DumbTab(
           [
-            Item(Id(:global_tab), "&Global Configuration", true),
-            Item(Id(:vserver_tab), "&Virtual Server Configuration")
+            Item(Id(:global_tab), _("&Global Configuration"), true),
+            Item(Id(:vserver_tab), _("&Virtual Server Configuration"))
           ],
           VBox(
             VSpacing(0.7),

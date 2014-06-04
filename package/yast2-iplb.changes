@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Jun  4 06:12:11 UTC 2014 - nwang@suse.com
+
+- BNC#880964. Make "untranslated hardcoded" to "ready to translate".
+- Version 3.1.3
+
+-------------------------------------------------------------------
 Thu May 29 02:51:24 UTC 2014 - nwang@suse.com
 
 - BNC#879029. Modify typo of ored to ignored.
