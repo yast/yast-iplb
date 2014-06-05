@@ -39,7 +39,10 @@ License:        GPL-2.0
 Group:          System/YaST
 
 %description
--
+YaST2 - Configuration of IP load balance.With this module
+you can configure a IP load balance system, frequently
+used on high availability (HA) clusters.
+
 
 %prep
 %setup -n %{name}-%{version}
