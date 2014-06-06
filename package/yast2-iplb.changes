@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Jun  6 02:47:09 UTC 2014 - nwang@suse.com
+
+- BNC#879027 reopened. Help doc is not supposed to ignored, but ORed.
+- Version 3.1.4
+
+-------------------------------------------------------------------
 Wed Jun  4 06:12:11 UTC 2014 - nwang@suse.com
 
 - BNC#880964. Make "untranslated hardcoded" to "ready to translate".
