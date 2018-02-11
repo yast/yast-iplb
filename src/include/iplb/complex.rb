@@ -82,11 +82,6 @@ module Yast
       # Iplb summary dialog caption
       caption = _("IPLB Configuration")
 
-      # FIXME
-      summary = Iplb.Summary
-      unconfigured = Ops.get_list(summary, 1, [])
-      configured = Ops.get_string(summary, 0, "")
-
       # Frame label
       contents = nil # Wizard_hw::DetectedContent(_("IPLB to Configure"),
       #	    unconfigured, false, configured);
@@ -140,8 +135,6 @@ module Yast
     def OverviewDialog
       # Iplb overview dialog caption
       caption = _("IPLB Overview")
-
-      overview = Iplb.Overview
 
       # FIXME table header
       contents = nil
