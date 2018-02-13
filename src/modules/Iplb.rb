@@ -278,7 +278,6 @@ module Yast
         end
         #check for IPv6 address
         is_ipv6 = false
-        sect_path = Builtins.topath("")
         ipv6_address = Builtins.regexpsub(vs_name, "\\[(.+)\\]", "\\1")
         is_ipv6 = IP.Check6(ipv6_address) if ipv6_address != nil
         if is_ipv6

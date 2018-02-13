@@ -397,7 +397,6 @@ module Yast
       ip = ""
       fwd_method = ""
       weight = 1
-      pos = 0
       real_ip = Builtins.splitstring(value, " \t")
       ip = Ops.get(real_ip, 0, "")
       fwd_method = Ops.get(real_ip, 1, "")
