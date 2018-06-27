@@ -14,6 +14,7 @@ X-SuSE-YaST-AutoInst=
 X-SuSE-YaST-Geometry=
 X-SuSE-YaST-SortKey=
 X-SuSE-YaST-AutoInstResource=iplb
+X-SuSE-YaST-Keywords=network,ip,loadbalancing
 
 Icon=yast-iplb
 Exec=/sbin/yast2 iplb 
