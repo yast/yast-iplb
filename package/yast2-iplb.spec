@@ -62,5 +62,6 @@ used on high availability (HA) clusters.
 %{yast_desktopdir}/iplb.desktop
 %{yast_scrconfdir}/*.scr
 %doc %{yast_docdir}
+%license COPYING
 
 %changelog
