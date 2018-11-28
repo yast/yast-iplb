@@ -17,7 +17,7 @@
 
 
 Name:           yast2-iplb
-Version:        4.0.1
+Version:        4.1.0
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -63,5 +63,6 @@ used on high availability (HA) clusters.
 %{yast_scrconfdir}/*.scr
 %doc %{yast_docdir}
 %license COPYING
+%{yast_icondir}
 
 %changelog
