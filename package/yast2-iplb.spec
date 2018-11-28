@@ -63,6 +63,6 @@ used on high availability (HA) clusters.
 %{yast_scrconfdir}/*.scr
 %doc %{yast_docdir}
 %license COPYING
-%{_datadir}/icons/*
+%{yast_icondir}
 
 %changelog
