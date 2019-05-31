@@ -19,7 +19,8 @@ X-SuSE-YaST-Keywords=network,ip,loadbalancing
 Icon=yast-iplb
 Exec=/sbin/yast2 iplb 
 
-Name=IP Load Balancing
-GenericName=Configure IPLB(IP Load Balancing)
+Name=YaST IPLB
+GenericName=IP Load Balancing
+Comment=Configure IP Load Balancing
 X-KDE-SubstituteUID=true
 StartupNotify=true
