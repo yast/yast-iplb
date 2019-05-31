@@ -22,7 +22,7 @@ scrconf_DATA = \
   scrconf/iplb.scr
 
 desktop_DATA = \
-  desktop/iplb.desktop
+  desktop/org.openSUSE.YaST.IPLB.desktop
 
 symbolicdir = @icondir@/hicolor/symbolic/apps
 symbolic_DATA = \
