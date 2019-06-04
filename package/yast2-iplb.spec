@@ -12,31 +12,30 @@
 # license that conforms to the Open Source Definition (Version 1.9)
 # published by the Open Source Initiative.
 
-# Please submit bugfixes or comments via http://bugs.opensuse.org/
+# Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
 
 
 Name:           yast2-iplb
-Version:        4.1.0
+Version:        4.2.0
 Release:        0
-
-BuildRoot:      %{_tmppath}/%{name}-%{version}-build
-Source0:        %{name}-%{version}.tar.bz2
-
-Requires:       yast2
-BuildRequires:  perl-XML-Writer
-BuildRequires:  update-desktop-files
-BuildRequires:  yast2
-BuildRequires:  yast2-devtools
-BuildRequires:  yast2-testsuite
-
-BuildArch:      noarch
-
-Requires:       yast2-ruby-bindings >= 1.0.0
-
 Summary:        Configuration of iplb
 License:        GPL-2.0-only
 Group:          System/YaST
+Url:            https://github.com/yast/yast-iplb
+
+Source0:        %{name}-%{version}.tar.bz2
+
+BuildRequires:  perl-XML-Writer
+BuildRequires:  update-desktop-files
+BuildRequires:  yast2
+BuildRequires:  yast2-devtools >= 4.2.2
+BuildRequires:  yast2-testsuite
+
+Requires:       yast2
+Requires:       yast2-ruby-bindings >= 1.0.0
+
+BuildArch:      noarch
 
 %description
 YaST2 - Configuration of IP load balance.With this module
@@ -45,22 +44,22 @@ used on high availability (HA) clusters.
 
 
 %prep
-%setup -n %{name}-%{version}
+%setup -q
 
 %build
 %yast_build
 
 %install
 %yast_install
+%yast_metainfo
 
 %files
-%defattr(-,root,root)
-%dir %{yast_yncludedir}/iplb
-%{yast_yncludedir}/iplb/*
-%{yast_clientdir}/iplb*.rb
-%{yast_moduledir}/Iplb.rb
-%{yast_desktopdir}/iplb.desktop
-%{yast_scrconfdir}/*.scr
+%{yast_yncludedir}
+%{yast_clientdir}
+%{yast_moduledir}
+%{yast_desktopdir}
+%{yast_metainfodir}
+%{yast_scrconfdir}
 %doc %{yast_docdir}
 %license COPYING
 %{yast_icondir}
