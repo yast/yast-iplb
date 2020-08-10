@@ -17,7 +17,7 @@
 
 
 Name:           yast2-iplb
-Version:        4.2.0
+Version:        4.3.0
 Release:        0
 Summary:        Configuration of iplb
 License:        GPL-2.0-only
@@ -34,6 +34,8 @@ BuildRequires:  yast2-testsuite
 
 Requires:       yast2
 Requires:       yast2-ruby-bindings >= 1.0.0
+
+Supplements:    autoyast(iplb)
 
 BuildArch:      noarch
 
