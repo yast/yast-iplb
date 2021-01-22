@@ -1,5 +1,6 @@
 # YaST - The IPLB Module #
 
-[![Travis Build](https://travis-ci.org/yast/yast-iplb.svg?branch=master)](https://travis-ci.org/yast/yast-iplb)
-[![Jenkins Build](http://img.shields.io/jenkins/s/https/ci.opensuse.org/yast-iplb-master.svg)](https://ci.opensuse.org/view/Yast/job/yast-iplb-master/)
-
+[![Workflow Status](https://github.com/yast/yast-iplb/workflows/CI/badge.svg?branch=master)](
+https://github.com/yast/yast-iplb/actions?query=branch%3Amaster)
+[![Jenkins Status](https://ci.opensuse.org/buildStatus/icon?job=yast-yast-iplb-master)](
+https://ci.opensuse.org/view/Yast/job/yast-yast-iplb-master/)
