@@ -17,7 +17,7 @@
 
 
 Name:           yast2-iplb
-Version:        4.3.0
+Version:        4.4.0
 Release:        0
 Summary:        Configuration of iplb
 License:        GPL-2.0-only
