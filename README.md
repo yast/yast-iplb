@@ -2,5 +2,4 @@
 
 [![Workflow Status](https://github.com/yast/yast-iplb/workflows/CI/badge.svg?branch=master)](
 https://github.com/yast/yast-iplb/actions?query=branch%3Amaster)
-[![Jenkins Status](https://ci.opensuse.org/buildStatus/icon?job=yast-yast-iplb-master)](
-https://ci.opensuse.org/view/Yast/job/yast-yast-iplb-master/)
+[![OBS](https://github.com/yast/yast-iplb/actions/workflows/submit.yml/badge.svg)](https://github.com/yast/yast-iplb/actions/workflows/submit.yml)
